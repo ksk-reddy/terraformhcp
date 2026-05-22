@@ -3,8 +3,8 @@ region = "us-east-2"
 }
 
 resource "aws_instance" "Ansible_server" {
-  ami           = "ami-098e39bafa7e7303d"
-  instance_type = "t2.micro"
+  ami           = "ami-0236922087fa98b6e
+  instance_type = "t3.micro"
   key_name      = "Ansible"
   tags = {
     Name = "Ansible_server"
